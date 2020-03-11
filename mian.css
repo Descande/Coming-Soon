@@ -77,3 +77,40 @@ body{
 .btn:hover{
     color:  #a1a1a1;
 }
+
+/* Responsive design to fir on smaller devices */
+@media screen and (max-width:900px){
+    .count{
+        flex:100% 
+    }
+    
+    .countd{
+        display: inline-block;
+        width:50px;
+        height: 50px;
+        border: 3px solid  #ffffff;
+        font-size: 7px;
+        margin: 0 10px;
+        border-radius: 50%;
+        overflow: hidden;
+}
+.countd span{
+    display: block;
+    font-size: 15px;
+    margin-top: 10px ;
+   
+}
+
+.container{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    color: #ffffff;
+}
+
+.container h1{
+   font-size: 2.4em;
+
+}
