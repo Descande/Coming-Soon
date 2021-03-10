@@ -1,6 +1,6 @@
 /* code to run down of time*/
 
-var count = new Date("jun 1,2020 00:00:00").getTime();
+var count = new Date("may 1,2021 00:00:00").getTime();
 
 var x = setInterval(function(){
     var now = new Date().getTime();
